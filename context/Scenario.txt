@@ -1,0 +1,11 @@
+Let’s say a user is chatting with a support bot about a specific product.
+User:
+“Does this laptop support Thunderbolt 4?”
+The client knows the user is viewing Product ID: X123, so it fetches the product specs and adds them to the prompt:
+Prompt to LLM:
+“You are a helpful assistant. The user is asking about a laptop with the following specs:
+Model: X123
+Ports: 2x USB-C, 1x Thunderbolt 4, HDMI
+User’s question: ‘Does this laptop support Thunderbolt 4?’”
+LLM Response:
+“Yes, this laptop supports Thunderbolt 4 via one of its USB-C ports.”

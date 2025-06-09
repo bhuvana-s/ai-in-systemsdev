@@ -1,0 +1,7 @@
+# AWS Bedrock Conversation System Requirements
+# Core AWS SDK for Python
+boto3>=1.28.0    # AWS SDK for Python
+botocore>=1.31.0 # Low-level, core functionality of boto3
+
+# These versions support AWS Bedrock functionality
+# Python 3.11.12 or higher is recommended
