@@ -1,0 +1,12 @@
+💬 Intuitive Example: The AI Librarian
+Imagine you’re chatting with an AI assistant at a law firm.
+User:
+“What’s the latest ruling on data privacy in the EU?”
+The LLM doesn’t know — it wasn’t trained on last month’s court decisions. But the client performs a semantic search over a vector store of legal documents and retrieves a recent ruling.
+Prompt to LLM:
+“You are a legal assistant. Based on the following document, answer the user’s question:
+[Excerpt from the ruling]
+User’s question: ‘What’s the latest ruling on data privacy in the EU?’”
+LLM Response:
+“According to the ruling issued on April 12, 2025, the EU has strengthened consent requirements for cross-border data transfers…”
+The LLM didn’t memorize this — it retrieved and reasoned.
